@@ -10,38 +10,32 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body >
-
 <header>
 	
 	<div >
-
 	   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	    <form class="d-flex" style="padding: 10px; margin-right: 10px;">
 	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
 	        <button class="btn btn-outline-success" type="submit">Search</button>
 	    </form>
 	    <a href="#" class="navbar-brand">Pokémon</a>
-
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
-
 	    <div class="collapse navbar-collapse" id="navbarSite">
-
 	      <ul class="navbar-nav">
-
 	        <li class="nav-item">
 	          <a  class="nav-link "href="#">Inicio</a>
 	        </li>
 	        <li class="nav-item">
-	          <a  class="nav-link "href="#">Jogos</a>
+	          <a  class="nav-link "href="#jogos">Jogos</a>
 	        </li>
 	        <li class="nav-item dropdown">
 	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 	            Pokemons
 	          </a>
 	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="#">Geração 1</a></li>
+	            <li><a class="dropdown-item" href="pokedex_primeirageração.php">Geração 1</a></li>
 	            <li><a class="dropdown-item" href="#">Geração 2 </a></li>
 	            <li><hr class="dropdown-divider"></li>
 	            <li><a class="dropdown-item" href="#">Mais Gerações</a></li>
@@ -51,8 +45,6 @@
 	    </nav>
     </div>
      
-
-
 			<div id="logo_header" class="align-itens-center">
 				<h1>Pokémon </h1>
 				<div>
@@ -73,39 +65,37 @@
 		
 	</div>
 	<div>
-		<div class="row">
-		
+		<div class="row" id="jogos">
 			<div class="col-xs-12 col-md-6 mt-4" >
 				<h1>Jogos</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>Pokémon é uma das franquias mais conhecidas e aclamadas no mundo dos games.</p>
+				<p>Produzido pela Gamefreak e publicado pela Nintendo, até o momento temos 25 jogos da série principal separados em 8 Gerações, sem contar com os relançamentos!</p>
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				  Launch demo modal
+				  Saiba mais
 				</button>
 			</div>
-
 			<div class="col-xs-12 col-md-6 mt-4" >
 				<h1>Iniciais</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>A cada nova geração anunciada, todo fã de Pokémon fica ansioso para saber, dentre outras coisas, quais serão os Pokémons Iniciais daquela região.</p>
+				<p>Eles serão seus primeiros companheiros na aventura e costumam ser muito fortes. </p>
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				  Launch demo modal
+				  Saiba mais
 				</button>
 			</div>
-
 		</div>
-
 		<div class="row">
 		
 			<div class="col-xs-12 col-md-6 mt-2 mb-4" >
 				<h1>Tipos</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>No mundo Pokémon, as criaturas podem ter até 2 tipos dentre os 18 existentes. Já os "golpes" possuem somente 1 tipo.</p>
+				<p>Cada tipo possui vantagens e desvantagens contra outros tipos e caso um pokemon use um "golpe" que possui o mesmo tipo que o seu, o mesmo pode ganhar um bônus por conta disso.</p>
 				<!-- Button trigger modal -->
 			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-			  Launch demo modal
+			  Saiba mais
 			</button>
 			</div>
-
 			<div class="col-xs-12 col-md-6 mt-2 mb-4" >
 				<h1>Visão</h1>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -114,10 +104,8 @@
 				  Launch demo modal
 				</button>
 			</div>
-
 		</div>
 	</div>
-
 <footer>
 	<div class="row">
 		<div class="col-xs-12 col-md-6">
@@ -125,17 +113,14 @@
 		</div>
 		<div class="col-xs-12 col-md-6">
 			<h1>Desenhos personalizados</h1>
-
 			Quem nunca sonhou em ser um mestre pokemon ter seus proprios pokemons sua equipe e se tornar o maior campão da liga pokemon.
 			Gabriel torna os sonhos das pessoas possiveis atraves de desenhos personalizados onde voce pode finalmente se tornar um mestre pokemon. 
-
 			<a href="desenhos.php">Clique aqui</a>
 		</div>
 	</div>
 </footer>
 </section>
 	
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -153,7 +138,6 @@
       			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       		</div>
       	</div>
-
   		<div class="row mt-2" style="border-bottom: 1px solid black;">
       		<div class="col-4">
       			<img src="imagens/greenversion.jpg" style="width:70%;" >
@@ -172,9 +156,8 @@
   </div>
 </div>
 </body>
-
-
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app.js"></script>
 </html>
