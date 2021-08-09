@@ -77,19 +77,21 @@
 		
 			<div class="col-xs-12 col-md-6 mt-4" >
 				<h1>Jogos</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>Pokémon é uma das franquias mais conhecidas e aclamadas no mundo dos games.</p>
+				<p>Produzido pela Gamefreak e publicado pela Nintendo, até o momento temos 25 jogos da série principal separados em 8 Gerações, sem contar com os relançamentos!</p>
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				  Launch demo modal
+				  Saiba mais
 				</button>
 			</div>
 
 			<div class="col-xs-12 col-md-6 mt-4" >
 				<h1>Iniciais</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>A cada nova geração anunciada, todo fã de Pokémon fica ansioso para saber, dentre outras coisas, quais serão os Pokémons Iniciais daquela região.</p>
+				<p>Eles serão seus primeiros companheiros na aventura e costumam ser muito fortes. </p>
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				  Launch demo modal
+				  Saiba mais
 				</button>
 			</div>
 
@@ -99,10 +101,11 @@
 		
 			<div class="col-xs-12 col-md-6 mt-2 mb-4" >
 				<h1>Tipos</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p>No mundo Pokémon, as criaturas podem ter até 2 tipos dentre os 18 existentes. Já os "golpes" possuem somente 1 tipo.</p>
+				<p>Cada tipo possui vantagens e desvantagens contra outros tipos e caso um pokemon use um "golpe" que possui o mesmo tipo que o seu, o mesmo pode ganhar um bônus por conta disso.</p>
 				<!-- Button trigger modal -->
 			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-			  Launch demo modal
+			  Saiba mais
 			</button>
 			</div>
 
