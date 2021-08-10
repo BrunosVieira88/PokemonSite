@@ -31,7 +31,7 @@
 	      <ul class="navbar-nav">
 
 	        <li class="nav-item">
-	          <a  class="nav-link "href="#">Inicio</a>
+	          <a  class="nav-link "href="#">Inicio Pistolagem</a>
 	        </li>
 	        <li class="nav-item">
 	          <a  class="nav-link "href="#">Jogos</a>
