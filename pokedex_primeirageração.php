@@ -10,7 +10,7 @@
 <body>
 
   <div class="container " style="text-align: center;">
-    <h1 style="background: blue;">Pokedex</h1>
+    <h1>Pokedex</h1>
     <ul data-js="pokedex" class="pokedex"></ul>
   </div>
   
