@@ -10,9 +10,14 @@
 <body>
 
   <div class="container " style="text-align: center;">
-    <h1>Pokedex</h1>
-    <ul data-js="pokedex" class="pokedex"></ul>
+    <div class="row">
+      <div class="col-12">
+        <h1>Pokedex</h1>
+        <ul data-js="pokedex" class="pokedex"></ul>
+      </div> 
+    </div>
   </div>
+    
   
   <script src="app.js"></script>
 </body>
