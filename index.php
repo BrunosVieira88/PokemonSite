@@ -5,8 +5,8 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- Bootstrap CSS -->
-    <link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
-     <!-- estilo CSS -->
+  	<link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
+   <!-- estilo CSS -->
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body >
@@ -18,7 +18,7 @@
 	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
 	        <button class="btn btn-outline-success" type="submit">Search</button>
 	    </form>
-	    <a href="#" class="navbar-brand">Pokémon</a>
+	    <a href="index.php" class="navbar-brand">Pokémon</a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -35,8 +35,14 @@
 	            Pokemons
 	          </a>
 	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="pokedex_primeirageração.php">Geração 1</a></li>
-	            <li><a class="dropdown-item" href="#">Geração 2 </a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_primeirageração.php">Geração 1</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_segunda.php">Geração 2</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_terceira.php">Geração 3</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_quarta.php">Geração 4</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_quinta.php">Geração 5</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_sexta.php">Geração 6</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_setima.php">Geração 7</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_oitava.php">Geração 8</a></li>
 	            <li><hr class="dropdown-divider"></li>
 	            <li><a class="dropdown-item" href="#">Mais Gerações</a></li>
 	          </ul>
@@ -159,5 +165,4 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="app.js"></script>
 </html>

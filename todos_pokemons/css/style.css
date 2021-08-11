@@ -1,33 +1,4 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-Sign in
-Sign up
-Roger-Melo
-/
-pokedex
-4532
-Code
-Issues
-Pull requests
-4
-Actions
-Projects
-Wiki
-Security
-Insights
-pokedex/style.css
-@Roger-Melo
-Roger-Melo Changed elipse on card background
-Latest commit 3cb451d on 10 Mar 2020
- History
- 1 contributor
-149 lines (123 sloc)  1.83 KB
+
   
 body {
 	background: #EFEFBB;
@@ -37,10 +8,7 @@ body {
 	font-family: rubik;
 }
 
-.container {
-	padding: 40px;
-	margin: 0 auto;
-}
+
 
 h1 {
 	text-align: center;
@@ -61,10 +29,11 @@ h1 {
 	text-align: center;
 	border-radius: 20px;
 	position: relative;
+	 box-shadow: 2px 2px 2px black;
 }
 
 .card::after {
-	content: "";
+  content: "";
   display: block;
   width: 50%;
   height: 45%;
@@ -74,6 +43,7 @@ h1 {
   position: absolute;
   top: 15%;
   left: 25%;
+
 }
 
 .steel {
@@ -81,18 +51,22 @@ h1 {
 }
 
 .fire {
-	background-color: #FDDFDF;
+	background-color: #FF6347 ;
 }
 
 .grass {
-	background-color: #DEFDE0;
+	background-color: #8FBC8F;
 }
 
 .electric {
-	background-color: #FCF7DE;
+	background-color: #FFFF00;
 }
 
-.water, .ice {
+.water{
+	background-color: #87CEFA;
+}
+
+.ice {
 	background-color: #DEF3FD;
 }
 
@@ -105,7 +79,7 @@ h1 {
 }
 
 .fairy {
-	background-color: #fceaff;
+	background-color: #FDDFDF;
 }
 
 .poison {
@@ -178,15 +152,4 @@ h1 {
 			transform: translateY(0);
 	}
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+

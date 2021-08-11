@@ -4,7 +4,7 @@ const pokedex = () => {
 
 	const pokemonpromises = []
 
-	for (var i = 1; i <= 150; i++) {
+	for (var i = 495; i <= 649; i++) {
 
 		pokemonpromises.push(fetch(Pegaurlid(i)).then(response => response.json()))
 	}
@@ -17,7 +17,7 @@ const pokedex = () => {
 
 			accumulator += `
 				<li class="card ${types[0]}">
-					<img class="card-image " alt="${pokemon.name}" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" />
+					<img class="card-image " alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pokemon.id}.png" />
 					<h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
 					<p class="card-subtitle">${types.join(' | ')}</p>
 
