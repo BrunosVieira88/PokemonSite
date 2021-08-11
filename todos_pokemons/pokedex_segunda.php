@@ -37,8 +37,14 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="pokedex_primeirageração.php">Geração 1</a></li>
               <li><a class="dropdown-item" href="pokedex_segunda.php">Geração 2 </a></li>
+              <li><a class="dropdown-item" href="pokedex_terceira.php">Geração 3</a></li>
+              <li><a class="dropdown-item" href="pokedex_quarta.php">Geração 4</a></li>
+              <li><a class="dropdown-item" href="pokedex_quinta.php">Geração 5</a></li>
+              <li><a class="dropdown-item" href="pokedex_sexta.php">Geração 6</a></li>
+              <li><a class="dropdown-item" href="pokedex_setima.php">Geração 7</a></li>
+              <li><a class="dropdown-item" href="pokedex_oitava.php">Geração 8</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Mais Gerações</a></li>
+              <li><a class="dropdown-item" href="allpoke.php">Mais Gerações</a></li>
             </ul>
           </li>
         </ul>
@@ -62,6 +68,6 @@
   <script src="js/app2.js"></script>
 </body>
 </html>
-      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>

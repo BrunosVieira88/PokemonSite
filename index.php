@@ -8,6 +8,8 @@
   	<link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
    <!-- estilo CSS -->
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<!--add icone superior na barra -->
+	<link rel="icon" type="image/png" href="imagens/pikachusemfundo.png" id="icone">
 </head>
 <body >
 <header>
@@ -44,7 +46,7 @@
 	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_setima.php">Geração 7</a></li>
 	            <li><a class="dropdown-item" href="todos_pokemons/pokedex_oitava.php">Geração 8</a></li>
 	            <li><hr class="dropdown-divider"></li>
-	            <li><a class="dropdown-item" href="#">Mais Gerações</a></li>
+	            <li><a class="dropdown-item" href="todos_pokemons/allpoke.php">Todas as gerações</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -65,7 +67,11 @@
 	<div class="row">
 		<div class="col-12 mt-4">
 			<h1>Nosso jogo</h1>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt euismod augue id aliquet. Cras lacus magna, tempor quis lorem sit amet, pharetra tempus felis. Donec gravida massa nec dui ultricies pharetra. Nullam fermentum sed magna et egestas. Fusce accumsan metus eu diam pulvinar sagittis. Sed suscipit placerat vulputate. Cras luctus est tortor, nec gravida ex tempor id. Praesent et semper lectus. Sed venenatis consectetur ipsum id sollicitudin. In ut euismod magna. Duis tempor ipsum arcu, et condimentum urna posuere vitae. Etiam convallis finibus blandit. Praesent fermentum laoreet ultricies. Mauris porta ac tellus vel bibendum. Aenean commodo, mi in blandit hendrerit, sapien tortor pharetra risus, eget laoreet felis elit in velit.
+			
+				<p>O jogo ainda esta em fase de desenvolvimento a ideia é que seja algo de card game com turnos e estrategias a la <a href="https://cdn.ome.lt/TCXhGfvC90b0kOqlOZIAjCcZoNg=/480x270/smart/uploads/conteudo/fotos/fire-emblem-gba_wINVU18.png" target="blank"><i>Fire Emblem</i></a> usando as melhores ideias de um RPG 
+				classico com o rpg de turno ja presentes na serie de jogos Pokemon, uma jogo com uma historia menos infantilizada e com atos e consequencias mais drasticas onde o jogador se sinta realmente desafiado a pensar e seja estrategico de uma maneira que os jogos de pokemons que embora eu tenha um carinho muito grande, tenha uma deficiencia, tendo um modelo competitivo onde quase 90% da maioria dos pokemons são peso de papel.</p>
+				<p>Quero trazer algo que desafie o jogador, e que seja divertido ao mesmo tempo Conto com voces para sugestoes e ideias atenciosamente Equipe CardFantasy</p> 
+
 			
 		</div>
 		
@@ -81,12 +87,12 @@
 				  Saiba mais
 				</button>
 			</div>
-			<div class="col-xs-12 col-md-6 mt-4" >
+			<div class="col-xs-12 col-md-6 mt-4" id="Iniciais" >
 				<h1>Iniciais</h1>
 				<p>A cada nova geração anunciada, todo fã de Pokémon fica ansioso para saber, dentre outras coisas, quais serão os Pokémons Iniciais daquela região.</p>
 				<p>Eles serão seus primeiros companheiros na aventura e costumam ser muito fortes. </p>
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IniciaisModal">
 				  Saiba mais
 				</button>
 			</div>
@@ -98,7 +104,7 @@
 				<p>No mundo Pokémon, as criaturas podem ter até 2 tipos dentre os 18 existentes. Já os "golpes" possuem somente 1 tipo.</p>
 				<p>Cada tipo possui vantagens e desvantagens contra outros tipos e caso um pokemon use um "golpe" que possui o mesmo tipo que o seu, o mesmo pode ganhar um bônus por conta disso.</p>
 				<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TiposModal">
 			  Saiba mais
 			</button>
 			</div>
@@ -136,33 +142,95 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      	<div class="row mt-2" style="border-bottom: 1px solid black;">
+  			<div class="row mt-2" style="border-bottom: 1px solid black;">
       		<div class="col-4">
       			<img src="imagens/greenversion.jpg" style="width:70%;" >
       		</div>
       		<div class="col-8">
       			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      			<div class="mt-2 mb-2">
+      				<button class="btn btn-primary" onclick="redireciona_jogos()">Todos os Jogos</button>
+      			</div>
       		</div>
       	</div>
-  		<div class="row mt-2" style="border-bottom: 1px solid black;">
-      		<div class="col-4">
-      			<img src="imagens/greenversion.jpg" style="width:70%;" >
-      		</div>
-      		<div class="col-8">
-      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      		</div>
-      	</div>
-       
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-       
       </div>
     </div>
   </div>
 </div>
+
+
+<!--Iniciais-->
+
+<div class="modal fade" id="IniciaisModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iniciais</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<div class="row mt-2" style="border-bottom: 1px solid black;">
+      		<div class="col-4">
+      			<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" style="width:70%;" >
+      			<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" style="width:70%;" >
+      			<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" style="width:70%;" >
+      		</div>
+      		<div class="col-8">
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      			<div class="mt-2 mb-2">
+      				<button class="btn btn-primary" onclick="redireciona()">Todos os iniciais</button>
+      			</div>
+      		</div>
+      	</div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--tipos-->
+<div class="modal fade" id="TiposModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tipos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<div class="row mt-2" style="border-bottom: 1px solid black;">
+      		<div class="col-12">
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      			<div class="mt-2 mb-2">
+      				<button class="btn btn-primary" onclick="redireciona()">Todos os Tipos</button>
+      			</div>
+      		</div>
+      	</div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    	function redireciona(){
+    		window.location.href = "iniciais.php";
+    	}
+
+    	function redireciona_jogos(){
+    		window.location.href = "jogos.php";
+    	}
+    </script>
 </html>
