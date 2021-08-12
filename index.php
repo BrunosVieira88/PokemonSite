@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>PKCG</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- Bootstrap CSS -->
   	<link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >

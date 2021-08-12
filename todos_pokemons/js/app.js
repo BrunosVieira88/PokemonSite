@@ -27,7 +27,7 @@ const pokedex = () => {
 					accumulator += `
 							<li class="card ${types[0]}">
 								<img class="card-image " alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/00${pokemon.id}.png" />
-								<h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
+								<a href="js/poke/pokemon${pokemon.id}.php"><h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2></a>
 								<p class="card-subtitle">${types.join(' | ')}</p>
 							
 							</li>
@@ -40,7 +40,7 @@ const pokedex = () => {
 					accumulator += `
 							<li class="card ${types[0]}">
 								<img class="card-image " alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/0${pokemon.id}.png" />
-								<h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
+								<a href="js/poke/pokemon${pokemon.id}.php"><h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2></a>
 								<p class="card-subtitle">${types.join(' | ')}</p>
 
 							</li>
@@ -51,7 +51,7 @@ const pokedex = () => {
 					accumulator += `
 							<li class="card ${types[0]}">
 								<img class="card-image " alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pokemon.id}.png" />
-								<h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
+								<a href="js/poke/pokemon${pokemon.id}.php"><h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2></a>
 								<p class="card-subtitle">${types.join(' | ')}</p>
 								
 

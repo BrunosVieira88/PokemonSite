@@ -5,19 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PokeDex</title>
    <!-- Bootstrap CSS -->
-  <link href="../node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
+  <link href="../../../node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
   
 </head>
 <body>
+  <style type="text/css">
+    a{
+      text-decoration: none;
+    }
+  </style>
+
 <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <form class="d-flex" style="padding: 10px; margin-right: 10px;">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-        <a href="../index.php" class="navbar-brand">Pokémon</a>
+        <a href="../../../index.php" class="navbar-brand">Pokémon</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +40,7 @@
                 Pokemons
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="pokedex_primeirageração.php">Geração 1</a></li>
+                <li><a class="dropdown-item" href="../../pokedex_primeirageração.php">Geração 1</a></li>
                 <li><a class="dropdown-item" href="pokedex_segunda.php">Geração 2</a></li>
                 <li><a class="dropdown-item" href="pokedex_terceira.php">Geração 3</a></li>
                 <li><a class="dropdown-item" href="pokedex_quarta.php">Geração 4</a></li>
@@ -51,22 +57,14 @@
       </div>
 </header>
 
-  <div class="container " style="text-align: center;">
-    <div class="row">
-      <div class="col-12">
-        <h1>Pokedex</h1>
-        <ul data-js="pokedex" class="pokedex"></ul>
-      </div> 
-    </div>
-  </div>
-    
-  
-  <script src="js/app.js"></script>
+
+  <img class="img-responsive " style="width:20%" alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png" />
+
 </body>
 </html>
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript">
       function redireciona(){
 
