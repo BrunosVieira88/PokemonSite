@@ -11,11 +11,7 @@
   
 </head>
 <body>
-  <style type="text/css">
-    a{
-      text-decoration: none;
-    }
-  </style>
+
 
 <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
