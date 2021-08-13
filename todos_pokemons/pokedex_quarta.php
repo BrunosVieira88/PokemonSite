@@ -51,68 +51,19 @@
     </div>       
 </header>
 
-<section class="ml-2  mt-4">
-	<div class="row">
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-	
-	
-	</div>
-</section>
-
-<section class="ml-2  mt-4">
-	<div class="row">
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-	
-	
-	</div>
-</section>
-
-<section class="ml-2  mt-4">
-	<div class="row">
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-
-		<div class=" col-xs-12 col-md-4">
-			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png"  style="width:70%;border: 1px solid black;margin-left: 60px;box-shadow: 1px 1px 2px  black;">
-		</div>
-	
-	
-	</div>
-</section>
-	
-
+  <div class="container " style="text-align: center;">
+    <div class="row">
+      <div class="col-12">
+        <h1>Pokedex</h1>
+        <ul data-js="pokedex" class="pokedex"></ul>
+      </div> 
+    </div>
+  </div>
+    
+  
+  <script src="js/app4.js"></script>
 </body>
-<script src="jquery.js"></script>
-<script type="text/javascript" src="animation.fix.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </html>
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
