@@ -53,14 +53,14 @@
      
 
 
-			<div id="logo_header" class="align-itens-center">
-				<h1>Pokémon </h1>
-				<div>
-					<img class="mt-4 mb-4" src="imagens/pikachu.png" style="width:130px;border-radius:70%;">
-				</div>
-				
-				<a href="#cadastro"><button  type="submit"  class="btn btn-primary btn-lg">Gotta Catch 'Em All!</button></a>
+		<div id="logo_header" class="align-itens-center">
+			<h1>Pokémon </h1>
+			<div>
+				<img class="mt-4 mb-4" src="imagens/pikachu.png" style="width:130px;border-radius:70%;">
 			</div>
+			
+			<a href="#cadastro"><button  type="submit"  class="btn btn-primary btn-lg">Gotta Catch 'Em All!</button></a>
+		</div>
 					
 </header>
 <section class="container">
