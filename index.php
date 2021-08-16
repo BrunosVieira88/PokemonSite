@@ -13,7 +13,6 @@
 </head>
 <body >
 <header>
-	teste
 	<div >
 	   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	    <form class="d-flex" style="padding: 10px; margin-right: 10px;">
@@ -27,7 +26,7 @@
 	    <div class="collapse navbar-collapse" id="navbarSite">
 	      <ul class="navbar-nav">
 	        <li class="nav-item">
-	          <a  class="nav-link "href="#">Inicio Pistolagem</a>
+	          <a  class="nav-link "href="#">Inicio</a>
 	        </li>
 	        <li class="nav-item">
 	          <a  class="nav-link "href="#jogos">Jogos</a>
