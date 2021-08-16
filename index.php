@@ -63,6 +63,20 @@
 					
 </header>
 <section class="container">
+
+	<div class="row">
+		<div class="col-12 mt-4">
+			<div style="text-align: center;">
+				<h1>Pokémon</h1>
+			</div>
+			
+			
+				<p>Pokémon (ポケモン Pokemon?) é uma franquia de mídia que pertence a The Pokémon Company, tendo sido criada por Satoshi Tajiri em 1995. Ela é centrada em criaturas ficcionais chamadas "Pokémon", que os seres humanos capturam e os treinam para lutarem um contra o outro como um esporte.</p>
+				<p>A franquia começou com um par de jogos lançados para o Game Boy original, desenvolvidos pela Game Freak e publicados pela Nintendo. Atualmente, a franquia se estende em jogos, cartas colecionáveis, série de televisão, além de filmes, mangás e brinquedos. Pokémon é a segunda franquia de mídia de jogos mais bem sucedida e lucrativa do mundo, atrás da franquia de Mario que também pertence a Nintendo</p> 
+
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="col-12 mt-4">
 			<h1>Nosso jogo</h1>
@@ -70,11 +84,9 @@
 				<p>O jogo ainda esta em fase de desenvolvimento a ideia é que seja algo de card game com turnos e estrategias a la <a href="https://cdn.ome.lt/TCXhGfvC90b0kOqlOZIAjCcZoNg=/480x270/smart/uploads/conteudo/fotos/fire-emblem-gba_wINVU18.png" target="blank"><i>Fire Emblem</i></a> usando as melhores ideias de um RPG 
 				classico com o rpg de turno ja presentes na serie de jogos Pokemon, uma jogo com uma historia menos infantilizada e com atos e consequencias mais drasticas onde o jogador se sinta realmente desafiado a pensar e seja estrategico de uma maneira que os jogos de pokemons que embora eu tenha um carinho muito grande, tenha uma deficiencia, tendo um modelo competitivo onde quase 90% da maioria dos pokemons são peso de papel.</p>
 				<p>Quero trazer algo que desafie o jogador, e que seja divertido ao mesmo tempo Conto com voces para sugestoes e ideias atenciosamente Equipe CardFantasy</p> 
-
-			
 		</div>
-		
 	</div>
+
 	<div>
 		<div class="row" id="jogos">
 			<div class="col-xs-12 col-md-6 mt-4" >
@@ -118,7 +130,7 @@
 		</div>
 	</div>
 <footer>
-	<div class="row">
+	<div class="row mb-4">
 		<div class="col-xs-12 col-md-6">
 			<img src="imagens/TREINADOR BRUNO E ESPOSA - ARTE FINAL.png" class="img-responsive" style="width:70%;">
 		</div>

@@ -10,7 +10,6 @@ body{
 header{
 	background-image: url(imagens/pokemon.jpg);
 	background-size: cover;
-
 	background-position: top center;
 	height: 110%;
 }
@@ -40,4 +39,15 @@ header{
 footer{
 	height: 20%;
 	
+}
+
+@media(max-width: 990px){
+
+
+	/*logo do Header*/
+	#logo_header{
+		display: none;
+	}
+
+
 }
