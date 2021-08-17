@@ -6,11 +6,13 @@
   <title>PokeDex</title>
    <!-- Bootstrap CSS -->
   <link href="../../../node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+
   
 </head>
 <body>
+
 
 <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,6 +53,39 @@
         </nav>
       </div>
 </header>
+<section class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-md-6 mt-5 " style="text-align: center;">  
+           <img class="card-image" style="width:80%;margin-top: 50px;" alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" />
+           <p>Bulbassaur</p>
+        </div>
+        <div class="col-md-6 mt-5" style="padding:10px;text-shadow: 1px 1px 1px white; color: black;">
+            <p>Bulbasaur (em japonês フシギダネ Fushigidane) ou Bulbassauro, como é chamado na dublagem brasileria, é um Pokémon de dois tipos: Grass e Poison que foi introduzido na Geração I. Bulbasaur é um dos três Pokémon iniciais de Kanto, assim como Charmander e Squirtle, que podem ser escolhidos no começo de Pokémon Red, Green, Blue, FireRed, and LeafGreen. Ele evolui para Ivysaur no nível 16, que então evolui para Venusaur no nível 32.</p>
+            <p>Seu nome vem das palavras Bulb (bulbo em inglês) e dinosaur (dinossauro em inglês). Literalmente seu nome seria Dinossauro Bulbo, uma referência ao Bulbo que tem em suas costas.</p>
+            <p>Bulbasaur é um pequeno Pokémon quadrúpede que tem uma pele azul-esverdeada com manchas mais escuras. Tem olhos vermelhos com pupilas brancas, pontiagudas, estruturas em forma de orelhas no alto da cabeça e um focinho curto e rombudo com a boca larga. Um par de dentes pequenos e pontiagudos são visíveis no maxilar superior quando a boca está aberta. Cada uma das suas pernas grossas termina com três garras afiadas. Nas suas costas há um bulbo de planta verde, que é cultivado a partir de uma semente plantada no nascimento. O bulbo fornece energia através da fotossíntese, bem como das sementes ricas em nutrientes contidas no interior.</p> 
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-md-6 " style="text-align: center;">  
+           <img class="card-image" style="width:80%;margin-top: 50px;" alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
+        </div>
+        <div class="col-md-6 " style="text-align: center;">
+          <img class="card-image" style="width:80%;margin-top: 50px;" alt="${pokemon.name}" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" />
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+  
+
+
 
 </body>
 </html>
