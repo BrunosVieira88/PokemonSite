@@ -69,6 +69,10 @@
 	<hr/>
     <h2>1 - 1&ordm; GERAÇÃO(1996 - 1999, 2004 e 2018)</h2>
 	<h3>1.1 - Pokémon Red, Green, Blue e Yellow:</h3>
+	<img src="imagens/pokemon-red.jpg" alt="Pokémon Red" height=200>
+	<img src="imagens/greenversion.jpg" alt="Pokémon Green" height=200>
+	<img src="imagens/pokemon-blue.jpg" alt="Pokémon Blue" height=200>
+	<img src="imagens/pokemon-yellow.jpg" alt="Pokémon Yellow" height=200>
 		<p>Os jogos originais de Pokémon são japoneses com um elemento de estratégia e foram criados por Satoshi Tajiri para o console Game Boy. 
 			Estes jogos de RPGs, e suas sequências, recriações e traduções para o inglês, ainda são considerados os jogos "principais" de 
 			Pokémon, e os jogos com os quais a maioria dos fãs da série estão familiarizados.</p>
@@ -80,6 +84,8 @@
 			básicos do jogo de capturar, treinar, lutar e trocar Pokémon com jogadores humanos de computador. Essas versões dos jogos ocorrem 
 			dentro da região fictícia Kanto, embora o nome "Kanto" não tenha sido usado até a segunda geração.</p>
 	<h3>1.2 - Pokémon FireRed e LeafGreen:</h3>
+	<img src="imagens/pokemon-firered.jpg" alt="Pokémon FireRed" height=200>
+	<img src="imagens/pokemon-leafgreen.jpg" alt="Pokémon LeafGreen" height=200>
 		<p>Em 2004, Pokémon Red & Green ganharam remakes para o Game Boy Advance e foram lançados como Pokémon FireRed & LeafGreen. 
 			FireRed & LeafGreen voltava ao cenário dos primeiros jogos e refazia a jornada deles. Com isso, trazia a possibilidade de 
 			obtenção de todos os 150 primeiros e também um aspecto de nostalgia, sendo refeitos quase que exatamente como os primeiros 
@@ -87,12 +93,16 @@
 			monstrinhos que eram nativos de Johto, palco dos jogos de segunda geração. Foram os jogos mais vendidos da Nintendo entre 
 			2004 e 2005.</p>
 	<h3>1.3 - Let´s Go, Pikachu! e Let´s Go Eevee! </h3>
+	<img src="imagens/pokemonLetsGoPikachu.jpg" alt="Pokémon Let´s Go Pikachu!" height=200><img src="imagens/pokemonLetsGoEevee.jpg" alt="Pokémon Let´s Go Eevee!" height=200>
 		<p>Em 29 de maio de 2018, foi anunciado dois novos jogos na franquia principal, Pokémon Let's Go, Pikachu! & Pokémon Let's Go, Eevee!. 
 			Eles são remakes de Pokémon Yellow com mecânica de jogo emprestada de Pokémon GO e foram lançados mundialmente no Nintendo Switch 
 			em 16 de novembro de 2018.</p>
 	<hr/>
 	<h2>2 - 2&ordm; GERAÇÃO(1999 - 2002, 2009)</h2>
 	<h3>2.1 - Pokémon Gold, Silver e Crystal:</h3>
+	<img src="imagens/pokemon-gold.jpg" alt="Pokémon Gold" height=200>
+	<img src="imagens/pokemon-silver.jpg" alt="Pokémon Silver" height=200>
+	<img src="imagens/pokemon-crystal.jpg" alt="Pokémon Crystal" height=200>
 		<p>A segunda geração de jogos eletrônicos de "Pokémon" começou em 1999 com o lançamento do Pokémon Gold' & Silver para o console 
 			Game Boy Color, com Austrália e América do Norte recebendo o jogo em outubro de 2000 e data de lançamento europeu de abril de 2001. 
 			Como na geração anterior, uma versão aprimorada chamada Pokémon Crystal foi lançada mais tarde.</p>
