@@ -8,7 +8,7 @@
     <link href="node_modules/bootstrap/compiler/bootstrap.css" rel="stylesheet" >
      <!-- estilo CSS -->
 	<link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
+
 </head>
 <body>
 
