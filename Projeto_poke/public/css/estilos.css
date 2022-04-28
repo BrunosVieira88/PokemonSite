@@ -1,0 +1,48 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #DCDCDC;
+	text-shadow: 2px 2px 2px white;
+	height: 100%;
+}
+
+
+/*logo do Header*/
+#logo_header{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	width:40%;
+	height:30%;
+	border-radius: 20px;
+	padding: 10px;
+	position: center;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.espaco{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+	height: 20%;
+	
+}
+
+@media(max-width: 990px){
+
+
+	/*logo do Header*/
+	#logo_header{
+		display: none;
+	}
+
+
+}

@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/todospoke', function () { return view('/todos_pokemons/allpoke');});
+Route::get('/', function () {return view('welcome');});
